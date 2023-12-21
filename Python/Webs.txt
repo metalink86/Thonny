@@ -1,0 +1,8 @@
+https://pythondiario.com/ejercicios-de-programacion-python
+
+https://aprendeconalf.es/docencia/python/ejercicios/
+
+https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting
+
+https://www.freecodecamp.org/news/tag/python/
+
