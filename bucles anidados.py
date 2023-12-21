@@ -1,3 +1,4 @@
+#Creación del diccionario de tareas
 tareas_pendientes={}
 i=True
 while i:
@@ -6,7 +7,7 @@ while i:
         break
     deberes=input('Introduce los deberes: ')
     tareas_pendientes[asignatura]=deberes
-    
+#Modificar las tareas
 tareas_hoy=input('¿Deseas ver las tareas del día?:')
 if tareas_hoy.lower()=='si':
     for i in tareas_pendientes:
@@ -15,7 +16,8 @@ if tareas_hoy.lower()=='si':
         if completada.lower()=='si':
             tareas_pendientes[i]='Completada'
         else:
-            continue
+          continue
+#Mostrar el diccionario actualizado
     for j in tareas_pendientes:
         if tareas_pendientes[j]=='Completada':
             print(f'En la asignatura {j}, no tienes nada pendiente')
